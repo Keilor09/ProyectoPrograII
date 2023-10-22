@@ -1,0 +1,8 @@
+# ninja log v5
+1	130	7196982551941473	build.ninja	6298290a6a9febfa
+0	384	7196950739482795	CMakeFiles/Proyecto_1.dir/main.cpp.obj	36530e5dca88debf
+11	387	7196950739512807	CMakeFiles/Proyecto_1.dir/Item.cpp.obj	f1c9b34398c62b8d
+15	406	7196950739703207	CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj	b64bacdeddd832be
+2	340	7196982201458596	CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj	f025a9f51e8746c
+340	431	7196982202346157	Proyecto_1.exe	8cf6778b14a4b14f
+2	343	7196977834455402	CMakeFiles/Proyecto_1.dir/Tienda.cpp.obj	4622b7cfe155ff01

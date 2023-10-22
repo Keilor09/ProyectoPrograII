@@ -18,7 +18,6 @@ int main() {
     nitro->aumentarVelocidad();
     nitro->aumentarPrecio();
 
-    cout << nitro->toString() << endl;
 
     return 0;
 }

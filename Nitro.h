@@ -36,7 +36,7 @@ class Nitro : public Tienda {
 
     void setPotencia(int potencia); // Metodo virtual puro
 
-    double costo();
+    int costo();
 
     string toString(); // Metodo virtual puro;
 

@@ -66,9 +66,31 @@ void Vehiculo::setPotencia(int potencia) {
     this->potencia = potencia;
 }
 
-double Vehiculo::costo() {
+int Vehiculo::costo() {
     return this->precio;
 }
+
+void Vehiculo::agregarDecorador(Item* decorador) {
+    this->listaDecoradores->coloFinal(decorador);
+
+    if (decorador->getId() == "M1" || decorador->getId() == "M2") {
+        this->setPotencia(this->getPotencia() + decorador->getPotencia());
+        this->setPrecio(this->costo() + decorador->getPrecio());
+    }
+    else {
+        if (decorador->getId() == "LL1" || decorador->getId() == "LL2" || decorador->getId() == "LL3") {
+            this->setTraccion(this->getTraccion() + decorador->getTraccion());
+            this->setPrecio(this->costo() + decorador->getPrecio());
+        }
+        else {
+            if (decorador->getId() == "N1" || decorador->getId() == "N2" || decorador->getId() == "N3") {
+                this->setVelocidad(this->getVelocidad() + decorador->getVelocidad());
+                this->setPrecio(this->costo() + decorador->getPrecio());
+            }
+        }
+    }
+}
+
 
 string Vehiculo::toString() {
     stringstream s;

@@ -62,7 +62,7 @@ void Nitro::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-double Nitro::costo() {
+int Nitro::costo() {
     return this->ptrItem->costo() + this->precio;
 }
 

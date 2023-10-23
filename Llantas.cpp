@@ -61,7 +61,7 @@ void Llantas::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-double Llantas::costo() {
+int Llantas::costo() {
     return this->ptrItem->costo() + this->precio;
 }
 

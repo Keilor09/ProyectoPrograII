@@ -14,7 +14,7 @@ class Tienda : public Item { // Clase decorator
         bool estado;
     public:
 
-        virtual double costo() = 0;
+        virtual int costo() = 0;
 
         bool getEstado() {
             return this->estado;

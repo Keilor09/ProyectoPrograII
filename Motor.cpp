@@ -62,7 +62,7 @@ void Motor::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-double Motor::costo() {
+int Motor::costo() {
     return this->ptrItem->costo() + this->precio;
 }
 

@@ -39,10 +39,9 @@ class Vehiculo : public Item {
 
         virtual void setPotencia(int potencia);
 
-        virtual double costo();
+        virtual int costo();
 
         void agregarDecorador(Item* decorador);
-
 
         virtual string toString();
 

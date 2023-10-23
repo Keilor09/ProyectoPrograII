@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Jugador.cpp" "CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj.d"
-  "C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Llantas.cpp" "CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj.d"
-  "C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Motor.cpp" "CMakeFiles/Proyecto_1.dir/Motor.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Motor.cpp.obj.d"
-  "C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Nitro.cpp" "CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj.d"
-  "C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Vehiculo.cpp" "CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj.d"
-  "C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/main.cpp" "CMakeFiles/Proyecto_1.dir/main.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/main.cpp.obj.d"
+  "C:/Users/ianmo/CLionProjects/proyecto/Jugador.cpp" "CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj.d"
+  "C:/Users/ianmo/CLionProjects/proyecto/Llantas.cpp" "CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj.d"
+  "C:/Users/ianmo/CLionProjects/proyecto/Motor.cpp" "CMakeFiles/Proyecto_1.dir/Motor.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Motor.cpp.obj.d"
+  "C:/Users/ianmo/CLionProjects/proyecto/Nitro.cpp" "CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj.d"
+  "C:/Users/ianmo/CLionProjects/proyecto/Vehiculo.cpp" "CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj.d"
+  "C:/Users/ianmo/CLionProjects/proyecto/main.cpp" "CMakeFiles/Proyecto_1.dir/main.cpp.obj" "gcc" "CMakeFiles/Proyecto_1.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

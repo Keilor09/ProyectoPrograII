@@ -40,6 +40,9 @@ public:
 
     string toString();
 
+    bool getEstado();//Metodo Virtual puro
+
+    void setEstado(bool estado);
 
 };
 

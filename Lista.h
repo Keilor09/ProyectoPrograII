@@ -11,6 +11,8 @@ template<class tipo>
 class Lista {
     private:
         Nodo<tipo> *raiz;
+        Nodo<tipo>* actual;
+        Nodo<tipo>* ultimo;
 
 public:
     Lista() {

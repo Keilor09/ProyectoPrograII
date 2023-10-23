@@ -72,6 +72,12 @@ string Nitro::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
+void Nitro::setEstado(bool estado) {
+    this->estado = estado;
+}
+bool Nitro::getEstado() {
+    return estado;
+}
 
 
 

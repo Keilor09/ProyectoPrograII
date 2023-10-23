@@ -16,13 +16,9 @@ class Tienda : public Item { // Clase decorator
 
         virtual int costo() = 0;
 
-        bool getEstado() {
-            return this->estado;
-        }
+         virtual bool getEstado() = 0;
 
-        void setEstado(bool estado) {
-            this->estado = estado;
-        }
+         virtual void setEstado(bool estado) = 0;
 
         virtual string getId()  = 0; // Metodo virtual puro
 

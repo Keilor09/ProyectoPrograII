@@ -72,3 +72,9 @@ string Motor::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
+void Motor::setEstado(bool estado) {
+    this->estado = estado;
+}
+bool Motor::getEstado() {
+    return estado;
+}

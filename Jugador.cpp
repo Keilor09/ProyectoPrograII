@@ -5,8 +5,7 @@
 #include "Jugador.h"
 
 Jugador::Jugador(const string &id, const string &nombre, float dineroDisponible, Lista<Vehiculo>* vehiculosDisponibles) : id(id), nombre(nombre),
-                                                                                   dineroDisponible(dineroDisponible),
-                                                                                   vehiculosDisponibles(new Lista<Vehiculo>()){}
+dineroDisponible(dineroDisponible), vehiculosDisponibles(new Lista<Vehiculo>()){}
 
 Jugador::Jugador() {
     id = "";

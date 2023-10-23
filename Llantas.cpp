@@ -71,3 +71,9 @@ string Llantas::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
+void Llantas::setEstado(bool estado) {
+    this->estado = estado;
+}
+bool Llantas::getEstado() {
+    return estado;
+}

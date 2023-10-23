@@ -745,7 +745,9 @@ CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Proy
   C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
   C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
-  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc
+  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+  C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Lista.h \
+  C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Nodo.h
 
 CMakeFiles/Proyecto_1.dir/main.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/main.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
@@ -894,6 +896,8 @@ CMakeFiles/Proyecto_1.dir/main.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Proyecto
   C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Item.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
   C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+  C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Lista.h \
+  C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Nodo.h \
   C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Tienda.h \
   C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Nitro.h \
   C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/Llantas.h \

@@ -10,7 +10,7 @@
 class Llantas : public Tienda {
 public:
 
-    Llantas(Item* ptrItem, bool estado);
+    Llantas(Item* ptrItem, bool estado, string id, string nombre, int traccion, int precio);
 
     string getId() ; // Metodo virtual puro
 
@@ -36,15 +36,10 @@ public:
 
     void setPotencia(int potencia); // Metodo virtual puro
 
+    double costo();
+
     string toString();
 
-    virtual void aumentarPotencia();
-
-    virtual void aumentarTraccion();
-
-    virtual void aumentarVelocidad();
-
-    virtual void aumentarPrecio();
 
 };
 

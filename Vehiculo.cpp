@@ -11,6 +11,7 @@ Vehiculo::Vehiculo(string id, string nombre, int precio, int traccion, int veloc
     this->traccion = traccion;
     this->velocidad = velocidad;
     this->potencia = potencia;
+    this->listaDecoradores = new Lista<Item>();
 }
 
 Vehiculo::~Vehiculo() {
@@ -65,29 +66,22 @@ void Vehiculo::setPotencia(int potencia) {
     this->potencia = potencia;
 }
 
-void Vehiculo::aumentarPotencia() {
-
-}
-
-void Vehiculo::aumentarTraccion() {
-
-}
-
-void Vehiculo::aumentarVelocidad() {
-
-}
-
-void Vehiculo::aumentarPrecio() {
-
+double Vehiculo::costo() {
+    return this->precio;
 }
 
 string Vehiculo::toString() {
     stringstream s;
     s << "Vehiculo: " << this->nombre << endl;
     s << "ID: " << this->id << endl;
-    s << "Precio: " << this->precio << endl;
+    s << "Precio: " << this->costo() << endl;
     s << "Traccion: " << this->traccion << endl;
     s << "Velocidad: " << this->velocidad << endl;
     s << "Potencia: " << this->potencia << endl;
     return s.str();
 }
+
+
+
+
+

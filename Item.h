@@ -50,15 +50,10 @@ class Item { // Clase abstracta // Interfaz
 
         virtual void setPotencia(int potencia) = 0; // Metodo virtual puro
 
+        virtual double costo() = 0; // Metodo virtual puro
+
         virtual string toString() = 0; // Metodo virtual puro;
 
-        virtual void aumentarPotencia() = 0;
-
-        virtual void aumentarTraccion() = 0;
-
-        virtual void aumentarVelocidad() = 0;
-
-        virtual void aumentarPrecio() = 0;
 };
 
 

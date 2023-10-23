@@ -10,7 +10,7 @@
 class Motor : public Tienda{
     public:
 
-        Motor(Item* ptrItem, bool estado);
+        Motor(Item* ptrItem, bool estado, string id, string nombre, int potencia, int precio);
 
         string getId() ; // Metodo virtual puro
 
@@ -36,15 +36,9 @@ class Motor : public Tienda{
 
         void setPotencia(int potencia); // Metodo virtual puro
 
+        double costo();
+
         string toString();
-
-        virtual void aumentarPotencia();
-
-        virtual void aumentarTraccion();
-
-        virtual void aumentarVelocidad();
-
-        virtual void aumentarPrecio();
 
 };
 

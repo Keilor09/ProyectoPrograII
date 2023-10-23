@@ -4,9 +4,13 @@
 
 #include "Motor.h"
 
-Motor::Motor(Item* ptrItem, bool estado) {
+Motor::Motor(Item* ptrItem, bool estado, string id, string nombre, int potencia, int precio) {
     this->ptrItem = ptrItem;
     this->estado = estado;
+    this->id = id;
+    this->nombre = nombre;
+    this->potencia = potencia;
+    this->precio = precio;
 }
 
 string Motor::getId()  {
@@ -58,24 +62,13 @@ void Motor::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-void Motor::aumentarPotencia() {
-    this->ptrItem->setPotencia(this->ptrItem->getPotencia() + this->potencia);
-}
-
-void Motor::aumentarTraccion() {
-
-}
-
-void Motor::aumentarVelocidad() {
-
-}
-
-void Motor::aumentarPrecio() {
-    this->ptrItem->setPrecio(ptrItem->getPrecio() + this->precio);
+double Motor::costo() {
+    return this->ptrItem->costo() + this->precio;
 }
 
 string Motor::toString() {
     stringstream s;
     s << this->ptrItem->toString() << endl;
+    s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }

@@ -4,15 +4,18 @@
 
 #include "Llantas.h"
 
-Llantas::Llantas(Item* ptrItem, bool estado) {
+Llantas::Llantas(Item* ptrItem, bool estado, string id, string nombre, int traccion, int precio) {
     this->ptrItem = ptrItem;
     this->estado = estado;
+    this->id = id;
+    this->nombre = nombre;
+    this->traccion = traccion;
+    this->precio = precio;
 }
 
 string Llantas::getId()  {
     return this->ptrItem->getId();
 }
-
 
 void Llantas::setId(const string &id)  {
     this->ptrItem->setId(id);
@@ -58,24 +61,13 @@ void Llantas::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-void Llantas::aumentarPotencia() {
-
-}
-
-void Llantas::aumentarTraccion() {
-    this->ptrItem->setTraccion(this->ptrItem->getTraccion() + this->traccion);
-}
-
-void Llantas::aumentarVelocidad() {
-
-}
-
-void Llantas::aumentarPrecio() {
-    this->ptrItem->setPrecio(ptrItem->getPrecio() + this->precio);
+double Llantas::costo() {
+    return this->ptrItem->costo() + this->precio;
 }
 
 string Llantas::toString() {
     stringstream s;
     s << this->ptrItem->toString() << endl;
+    s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }

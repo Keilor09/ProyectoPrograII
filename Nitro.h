@@ -36,16 +36,9 @@ class Nitro : public Tienda {
 
     void setPotencia(int potencia); // Metodo virtual puro
 
+    double costo();
+
     string toString(); // Metodo virtual puro;
-
-    virtual void aumentarPotencia();
-
-    virtual void aumentarTraccion();
-
-    virtual void aumentarVelocidad();
-
-    virtual void aumentarPrecio();
-
 
 };
 

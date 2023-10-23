@@ -62,26 +62,16 @@ void Nitro::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-void Nitro::aumentarPotencia() {
-
-}
-
-void Nitro::aumentarTraccion() {
-
-}
-
-void Nitro::aumentarVelocidad() {
-    this->ptrItem->setVelocidad(this->ptrItem->getVelocidad()+ this->velocidad);
-}
-
-void Nitro::aumentarPrecio() {
-    this->ptrItem->setPrecio(ptrItem->getPrecio() + this->precio);
+double Nitro::costo() {
+    return this->ptrItem->costo() + this->precio;
 }
 
 string Nitro::toString() {
     stringstream s;
     s << this->ptrItem->toString() << endl;
-    s << "Nombre: " << this->nombre << " Precio: " << this->precio;
+    s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
+
+
 

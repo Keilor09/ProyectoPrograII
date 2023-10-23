@@ -6,8 +6,10 @@
 #define PROYECTO_1_VEHICULO_H
 
 #include "Item.h"
-
+#include "Lista.h"
 class Vehiculo : public Item {
+    private:
+        Lista<Item>* listaDecoradores;
     public:
         Vehiculo(string id, string nombre, int precio, int traccion, int velocidad, int potencia);
 
@@ -37,15 +39,12 @@ class Vehiculo : public Item {
 
         virtual void setPotencia(int potencia);
 
+        virtual double costo();
+
+        void agregarDecorador(Item* decorador);
+
+
         virtual string toString();
-
-        virtual void aumentarPotencia();
-
-        virtual void aumentarTraccion();
-
-        virtual void aumentarVelocidad();
-
-        virtual void aumentarPrecio();
 
 };
 

@@ -44,6 +44,16 @@ class Nitro : public Tienda {
 
     string toString(); // Metodo virtual puro;
 
+    string toStringNitro();
+
+    Nitro *cargaDatos(Json::Value objeto);
+
+    Json::Value salvaDatos(Nitro* nitro);
+
+    Item* getPtrItem();
+
+    void setPtrItem(Item*);
+
 };
 
 

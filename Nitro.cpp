@@ -72,11 +72,53 @@ string Nitro::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
+
+string Nitro::toStringNitro() {
+    stringstream s;
+    s << "Nombre: " << this->nombre << endl;
+    s << "ID: " << this->id << endl;
+    s << "Estado: " << this->estado << endl;
+    s << "Velocidad: " << this->velocidad << endl;
+    s << "Precio: " << this->precio << endl;
+    return s.str();
+}
+
 void Nitro::setEstado(bool estado) {
     this->estado = estado;
 }
+
 bool Nitro::getEstado() {
     return estado;
+}
+
+Nitro* Nitro::cargaDatos(Json::Value objeto) {
+    bool estado = objeto["estado"].asBool();
+    string nombre = objeto["nombre"].asString();
+    string id = objeto["id"].asString();
+    int precio = objeto["precio"].asInt();
+    int velocidad = objeto["velocidad"].asInt();
+    Item* ptrItem = getPtrItem();
+
+    return new Nitro(ptrItem, estado, id, nombre, precio, velocidad);
+}
+
+Json::Value Nitro::salvaDatos(Nitro* nitro) {
+    Json::Value event;
+    event["estado"] = nitro->getEstado();
+    event["nombre"] = nitro->getNombre();
+    event["id"] = nitro->getId();
+    event["precio"] = nitro->getPrecio();
+    event["velocidad"] = nitro->getVelocidad();
+
+    return event;
+}
+
+Item* Nitro::getPtrItem() {
+    return this->ptrItem;
+}
+
+void Nitro::setPtrItem(Item* ptrItem) {
+    this->ptrItem = ptrItem;
 }
 
 

@@ -71,9 +71,52 @@ string Llantas::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
+
+string Llantas::toStringLlantas() {
+    stringstream s;
+    s << "Nombre: " << this->nombre << endl;
+    s << "ID: " << this->id << endl;
+    s << "Estado: " << this->estado << endl;
+    s << "Traccion: " << this->traccion << endl;
+    s << "Precio: " << this->precio << endl;
+    return s.str();
+}
+
+
 void Llantas::setEstado(bool estado) {
     this->estado = estado;
 }
+
 bool Llantas::getEstado() {
     return estado;
+}
+
+Llantas* Llantas::cargaDatos(Json::Value objeto) {
+    bool estado = objeto["estado"].asBool();
+    string nombre = objeto["nombre"].asString();
+    string id = objeto["id"].asString();
+    int precio = objeto["precio"].asInt();
+    int traccion = objeto["traccion"].asInt();
+    Item* ptrItem = getPtrItem();
+
+    return new Llantas(ptrItem, estado, id, nombre, traccion, precio);
+}
+
+Json::Value Llantas::salvaDatos(Llantas* llantas) {
+    Json::Value event;
+    event["estado"] = llantas->getEstado();
+    event["nombre"] = llantas->getNombre();
+    event["id"] = llantas->getId();
+    event["precio"] = llantas->getPrecio();
+    event["traccion"] = llantas->getTraccion();
+
+    return event;
+}
+
+Item* Llantas::getPtrItem() {
+    return this->ptrItem;
+}
+
+void Llantas::setPtrItem(Item* ptrItem) {
+    this->ptrItem = ptrItem;
 }

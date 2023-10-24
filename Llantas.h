@@ -40,9 +40,20 @@ public:
 
     string toString();
 
+    string toStringLlantas();
+
     bool getEstado();//Metodo Virtual puro
 
     void setEstado(bool estado);
+
+    Llantas *cargaDatos(Json::Value objeto);
+
+    Json::Value salvaDatos(Llantas* llantas);
+
+    Item* getPtrItem();
+
+    void setPtrItem(Item*);
+
 
 };
 

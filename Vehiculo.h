@@ -7,6 +7,9 @@
 
 #include "Item.h"
 #include "Lista.h"
+#include <fstream>
+#include "dist/json.h"
+
 class Vehiculo : public Item {
     private:
         Lista<Item>* listaDecoradores;
@@ -42,6 +45,10 @@ class Vehiculo : public Item {
         virtual int costo();
 
         void agregarDecorador(Item* decorador);
+
+        Vehiculo *cargaDatos(Json::Value objeto);
+
+        Json::Value salvaDatos(Vehiculo* cte);
 
         virtual string toString();
 

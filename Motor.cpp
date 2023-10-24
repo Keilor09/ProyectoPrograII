@@ -72,9 +72,52 @@ string Motor::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
+
+string Motor::toStringMotor() {
+    stringstream s;
+    s << "Nombre: " << this->nombre << endl;
+    s << "ID: " << this->id << endl;
+    s << "Estado: " << this->estado << endl;
+    s << "Potencia: " << this->potencia << endl;
+    s << "Precio: " << this->precio << endl;
+    return s.str();
+}
+
+
 void Motor::setEstado(bool estado) {
     this->estado = estado;
 }
+
 bool Motor::getEstado() {
     return estado;
+}
+
+Motor* Motor::cargaDatos(Json::Value objeto) {
+    bool estado = objeto["estado"].asBool();
+    string nombre = objeto["nombre"].asString();
+    string id = objeto["id"].asString();
+    int precio = objeto["precio"].asInt();
+    int potencia = objeto["potencia"].asInt();
+    Item* ptrItem = getPtrItem();
+
+    return new Motor(ptrItem, estado, id, nombre, potencia, precio);
+}
+
+Json::Value Motor::salvaDatos(Motor* motor) {
+    Json::Value event;
+    event["estado"] = motor->getEstado();
+    event["nombre"] = motor->getNombre();
+    event["id"] = motor->getId();
+    event["precio"] = motor->getPrecio();
+    event["potencia"] = motor->getPotencia();
+
+    return event;
+}
+
+Item* Motor::getPtrItem() {
+    return this->ptrItem;
+}
+
+void Motor::setPtrItem(Item* ptrItem) {
+    this->ptrItem = ptrItem;
 }

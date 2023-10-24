@@ -1,0 +1,23 @@
+[
+  {
+    "estado" : true,
+    "id" : "N1",
+    "nombre" : "Nitro basico",
+    "precio" : 1000,
+    "velocidad" : 10
+  },
+  {
+    "estado" : true,
+    "id" : "N2",
+    "nombre" : "Nitro intermedio",
+    "precio" : 1500,
+    "velocidad" : 20
+  },
+  {
+    "estado" : true,
+    "id" : "N3",
+    "nombre" : "Nitro alto rendimiento",
+    "precio" : 2000,
+    "velocidad" : 30
+  }
+]

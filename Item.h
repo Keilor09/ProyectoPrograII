@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include <sstream>
+#include <fstream>
+#include "dist/json.h"
 
 using namespace std;
 

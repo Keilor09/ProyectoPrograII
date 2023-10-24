@@ -45,7 +45,6 @@ class Tienda : public Item { // Clase decorator
         virtual void setPotencia(int potencia) = 0; // Metodo virtual puro
 
         virtual string toString() = 0; // Metodo virtual puro;
-
 };
 
 

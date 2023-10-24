@@ -14,28 +14,28 @@ Motor::Motor(Item* ptrItem, bool estado, string id, string nombre, int potencia,
 }
 
 string Motor::getId()  {
-    return this->ptrItem->getId();
+    return this->id;
 }
 
 
 void Motor::setId(const string &id)  {
-    this->ptrItem->setId(id);
+    this->id = id;
 }
 
 string Motor::getNombre()  {
-    return this->ptrItem->getNombre();
+    return this->nombre;
 }
 
 void Motor::setNombre(const string &nombre)  {
-    this->ptrItem->setNombre(nombre);
+    this->nombre = nombre;
 }
 
 int Motor::getPrecio()  {
-    return this->ptrItem->getPrecio();
+    return this->precio;
 }
 
 void Motor::setPrecio(int precio)  {
-    this->ptrItem->setPrecio(precio);
+    this->precio = precio;
 }
 
 int Motor::getTraccion()  {
@@ -55,11 +55,11 @@ void Motor::setVelocidad(int velocidad)  {
 }
 
 int Motor::getPotencia()  {
-    return this->ptrItem->getPotencia();
+    return this->potencia;
 }
 
 void Motor::setPotencia(int potencia)  {
-    this->ptrItem->setPotencia(potencia);
+    this->potencia = potencia;
 }
 
 int Motor::costo() {

@@ -1,0 +1,16 @@
+[
+  {
+    "estado" : true,
+    "id" : "M1",
+    "nombre" : "motor intermedio",
+    "potencia" : 25,
+    "precio" : 1700
+  },
+  {
+    "estado" : true,
+    "id" : "M2",
+    "nombre" : "motor alto rendimiento",
+    "potencia" : 50,
+    "precio" : 2300
+  }
+]

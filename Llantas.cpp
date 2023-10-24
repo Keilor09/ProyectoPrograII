@@ -14,35 +14,35 @@ Llantas::Llantas(Item* ptrItem, bool estado, string id, string nombre, int tracc
 }
 
 string Llantas::getId()  {
-    return this->ptrItem->getId();
+    return this->id;
 }
 
 void Llantas::setId(const string &id)  {
-    this->ptrItem->setId(id);
+    this->id = id;
 }
 
 string Llantas::getNombre()  {
-    return this->ptrItem->getNombre();
+    return this->nombre;
 }
 
 void Llantas::setNombre(const string &nombre)  {
-    this->ptrItem->setNombre(nombre);
+    this->nombre = nombre;
 }
 
 int Llantas::getPrecio()  {
-    return this->ptrItem->getPrecio();
+    return this->precio;
 }
 
 void Llantas::setPrecio(int precio)  {
-    this->ptrItem->setPrecio(precio);
+    this->precio = precio;
 }
 
 int Llantas::getTraccion()  {
-    return this->ptrItem->getTraccion();
+    return this->traccion;
 }
 
 void Llantas::setTraccion(int traccion)  {
-    this->ptrItem->setTraccion(traccion);
+    this->traccion = traccion;
 }
 
 int Llantas::getVelocidad()  {

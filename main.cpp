@@ -10,16 +10,17 @@ using namespace std;
 
 int main() {
 
-    Vehiculo* veh = new Vehiculo("V1", "Ferrari 458 Italia Coupe", 15000, 21, 250, 562);
+    Vehiculo* ptrVehiculo;
+    Vehiculo* v1 = new Vehiculo("V1", "Ferrari 458 Italia Coupe", 15000, 21, 250, 562);
+    Vehiculo* v2 = new Vehiculo("V2", "Tesla Model X", 17000, 22, 180, 670);
+    Vehiculo* v3 = new Vehiculo("V3", "Maserati MC12 Stradale", 15000, 18, 255, 450);
 
-    /*
-    cout << veh->toString() << endl;
+    //cout << v1->toString() << endl;
 
-    veh->agregarDecorador(new Nitro(veh, true, "N1", "Nitro basico", 1000, 10));
+    //v1->agregarDecorador(new Nitro(v1, true, "N1", "Nitro basico", 1000, 10));
 
-    cout << veh->toString() << endl;
+    //cout << v1->toString() << endl;
 
-    */
 
     // prueba json
 
@@ -39,34 +40,34 @@ int main() {
     Llantas* l2 = new Llantas(nullptr, true, "LL2", "llanta B traccion normal", 45, 1100);
     Llantas* l3 = new Llantas(nullptr, true, "LL3", "llanta C traccion baja", -10, 600);
 
-
+/*
     Json::StreamWriterBuilder builder;
     builder["commentStyle"] = "None";
     builder["indentation"] = "  ";
 
     unique_ptr<Json::StreamWriter> writer(builder.newStreamWriter());
 
-    ofstream salida("archivoNitro.txt");
+    ofstream salida("archivoVehiculo.txt");
 
     Json::Value event;
     Json::Value arreglo(Json::arrayValue);
 
-    arreglo.append(nitroPtr->salvaDatos(n1));
-    arreglo.append(nitroPtr->salvaDatos(n2));
-    arreglo.append(nitroPtr->salvaDatos(n3));
+    arreglo.append(ptrVehiculo->salvaDatos(v1));
+    arreglo.append(ptrVehiculo->salvaDatos(v2));
+    arreglo.append(ptrVehiculo->salvaDatos(v3));
 
     writer->write(arreglo, &salida);
     salida.close();
-
-    ifstream entrada("archivoNitro.txt");
+*/
+    ifstream entrada("archivoVehiculo.txt");
 
     Json::Value objeto;
     Json::Reader reader;
     reader.parse(entrada, objeto);
 
     for (int i = 0; i < objeto.size(); i++) {
-        nitroPtr = nitroPtr->cargaDatos(objeto[i]);
-        cout << nitroPtr->toStringNitro() << endl;
+        ptrVehiculo = ptrVehiculo->cargaDatos(objeto[i]);
+        cout << ptrVehiculo->toStringVehiculo() << endl;
         entrada.close();
     }
 
@@ -78,6 +79,9 @@ int main() {
     delete l1;
     delete l2;
     delete l3;
+    delete v1;
+    delete v2;
+    delete v3;
 
 
     return 0;

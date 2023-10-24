@@ -1,0 +1,26 @@
+[
+  {
+    "id" : "V1",
+    "nombre" : "Ferrari 458 Italia Coupe",
+    "potencia" : 562,
+    "precio" : 16000,
+    "traccion" : 21,
+    "velocidad" : 260
+  },
+  {
+    "id" : "V2",
+    "nombre" : "Tesla Model X",
+    "potencia" : 670,
+    "precio" : 17000,
+    "traccion" : 22,
+    "velocidad" : 180
+  },
+  {
+    "id" : "V3",
+    "nombre" : "Maserati MC12 Stradale",
+    "potencia" : 450,
+    "precio" : 15000,
+    "traccion" : 18,
+    "velocidad" : 255
+  }
+]

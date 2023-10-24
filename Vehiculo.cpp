@@ -91,6 +91,41 @@ void Vehiculo::agregarDecorador(Item* decorador) {
     }
 }
 
+Vehiculo * Vehiculo::cargaDatos(Json::Value objeto) {
+    string id = objeto["id"].asString();
+    string nombre = objeto["nombre"].asString();
+    int precio = objeto["precio"].asInt();
+    int traccion = objeto["traccion"].asInt();
+    int velocidad = objeto["velocidad"].asInt();
+    int potencia = objeto["potencia"].asInt();
+
+    return new Vehiculo(id, nombre, precio, traccion, velocidad, potencia);
+}
+
+Json::Value Vehiculo::salvaDatos(Vehiculo* vehiculo) {
+    Json::Value event;
+    event["id"] = vehiculo->getId();
+    event["nombre"] = vehiculo->getNombre();
+    event["precio"] = vehiculo->getPrecio();
+    event["traccion"] = vehiculo->getTraccion();
+    event["velocidad"] = vehiculo->getVelocidad();
+    event["potencia"] = vehiculo->getPotencia();
+
+    return event;
+}
+
+string Vehiculo::toStringVehiculo() {
+    stringstream s;
+    s << "Vehiculo sin mejoras" << endl;
+    s << "Vehiculo: " << this->nombre << endl;
+    s << "ID: " << this->id << endl;
+    s << "Precio: " << this->precio << endl;
+    s << "Traccion: " << this->traccion << endl;
+    s << "Velocidad: " << this->velocidad << endl;
+    s << "Potencia: " << this->potencia << endl;
+    return s.str();
+}
+
 
 string Vehiculo::toString() {
     stringstream s;
@@ -102,6 +137,8 @@ string Vehiculo::toString() {
     s << "Potencia: " << this->potencia << endl;
     return s.str();
 }
+
+
 
 
 

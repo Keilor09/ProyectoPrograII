@@ -48,7 +48,9 @@ class Vehiculo : public Item {
 
         Vehiculo *cargaDatos(Json::Value objeto);
 
-        Json::Value salvaDatos(Vehiculo* cte);
+        Json::Value salvaDatos(Vehiculo* vehiculo);
+
+        string toStringVehiculo();
 
         virtual string toString();
 

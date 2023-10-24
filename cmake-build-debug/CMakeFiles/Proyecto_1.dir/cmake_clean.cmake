@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj.d"
   "CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj"
   "CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj.d"
+  "CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj"
+  "CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj.d"
   "CMakeFiles/Proyecto_1.dir/main.cpp.obj"
   "CMakeFiles/Proyecto_1.dir/main.cpp.obj.d"
   "Proyecto_1.exe"

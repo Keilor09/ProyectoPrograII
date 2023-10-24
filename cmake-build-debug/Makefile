@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\keilo\OneDrive\Desktop\Proyecto_1-pruebas
+CMAKE_SOURCE_DIR = C:\Users\keilo\Desktop\Proyecto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\keilo\OneDrive\Desktop\Proyecto_1-pruebas\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\keilo\Desktop\Proyecto\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\keilo\OneDrive\Desktop\Proyecto_1-pruebas\cmake-build-debug\CMakeFiles C:\Users\keilo\OneDrive\Desktop\Proyecto_1-pruebas\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\keilo\OneDrive\Desktop\Proyecto_1-pruebas\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -248,6 +248,30 @@ Vehiculo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1.dir\build.make CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.s
 .PHONY : Vehiculo.cpp.s
 
+dist/jsoncpp.obj: dist/jsoncpp.cpp.obj
+.PHONY : dist/jsoncpp.obj
+
+# target to build an object file
+dist/jsoncpp.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1.dir\build.make CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj
+.PHONY : dist/jsoncpp.cpp.obj
+
+dist/jsoncpp.i: dist/jsoncpp.cpp.i
+.PHONY : dist/jsoncpp.i
+
+# target to preprocess a source file
+dist/jsoncpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1.dir\build.make CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.i
+.PHONY : dist/jsoncpp.cpp.i
+
+dist/jsoncpp.s: dist/jsoncpp.cpp.s
+.PHONY : dist/jsoncpp.s
+
+# target to generate assembly for a file
+dist/jsoncpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Proyecto_1.dir\build.make CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.s
+.PHONY : dist/jsoncpp.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -296,6 +320,9 @@ help:
 	@echo ... Vehiculo.obj
 	@echo ... Vehiculo.i
 	@echo ... Vehiculo.s
+	@echo ... dist/jsoncpp.obj
+	@echo ... dist/jsoncpp.i
+	@echo ... dist/jsoncpp.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

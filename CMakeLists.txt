@@ -18,4 +18,6 @@ add_executable(Proyecto_1 main.cpp
         Llantas.h
         Motor.cpp
         Motor.h
+        dist/json/json.h
+        dist/jsoncpp.cpp
 )

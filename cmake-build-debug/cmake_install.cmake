@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas
+# Install script for directory: C:/Users/keilo/Desktop/Proyecto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/keilo/OneDrive/Desktop/Proyecto_1-pruebas/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

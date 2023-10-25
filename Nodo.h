@@ -40,7 +40,7 @@ public:
     }
 
     friend ostream &operator<<(ostream &os, const Nodo &nodo) { //esto lo genera directamente CLion
-        os << "[DATO]: " << *nodo.dat << "\n";
+        os << *nodo.dat << "\n";
         return os;
     }
 

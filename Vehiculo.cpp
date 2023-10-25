@@ -127,6 +127,17 @@ string Vehiculo::toStringVehiculo() {
 }
 
 
+ostream &operator<<(ostream &os, const Vehiculo &vehiculo) {
+    os << "Vehiculo: " << vehiculo.nombre << endl;
+    os << "ID: " << vehiculo.id << endl;
+    os << "Precio: " << vehiculo.precio << endl;
+    os << "Traccion: " << vehiculo.traccion << endl;
+    os << "Velocidad: " << vehiculo.velocidad << endl;
+    os << "Potencia: " << vehiculo.potencia << endl;
+    return os;
+}
+
+
 string Vehiculo::toString() {
     stringstream s;
     s << "Vehiculo: " << this->nombre << endl;

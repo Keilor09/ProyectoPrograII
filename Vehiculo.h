@@ -52,6 +52,8 @@ class Vehiculo : public Item {
 
         string toStringVehiculo();
 
+        friend ostream &operator<<(ostream &os, const Vehiculo &vehiculo);
+
         virtual string toString();
 
 };

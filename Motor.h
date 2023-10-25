@@ -54,6 +54,7 @@ class Motor : public Tienda{
 
         void setPtrItem(Item*);
 
+        friend ostream &operator<<(ostream &os, const Motor &motor);
 
 };
 

@@ -7,6 +7,7 @@ using namespace std;
 #include "Nitro.h"
 #include "Llantas.h"
 #include "Motor.h"
+#include "Jugador.h"
 
 int main() {
 
@@ -15,6 +16,21 @@ int main() {
     Vehiculo* v2 = new Vehiculo("V2", "Tesla Model X", 17000, 22, 180, 670);
     Vehiculo* v3 = new Vehiculo("V3", "Maserati MC12 Stradale", 15000, 18, 255, 450);
 
+    Lista<Vehiculo>* listaVehiculos = new Lista<Vehiculo>;
+    listaVehiculos->coloFinal(v1);
+    listaVehiculos->coloFinal(v2);
+    listaVehiculos->coloFinal(v3);
+
+    //cout << listaVehiculos->toString();
+
+    Lista<Jugador>* listaJugadores = new Lista<Jugador>;
+
+    Jugador* jugador1 = new Jugador("1111", "Pepito", 5000, listaVehiculos);
+
+    cout << *jugador1 << endl;
+
+    //listaJugadores->coloFinal(jugador1);
+    //cout << *listaJugadores;
     //cout << v1->toString() << endl;
 
     //v1->agregarDecorador(new Nitro(v1, true, "N1", "Nitro basico", 1000, 10));
@@ -24,6 +40,7 @@ int main() {
 
     // prueba json
 
+    /*
     Nitro* nitroPtr;
     Nitro* n1 = new Nitro(nullptr, true, "N1", "Nitro basico", 1000, 10);
     Nitro* n2 = new Nitro(nullptr, true, "N2", "Nitro intermedio", 1500, 20);
@@ -58,7 +75,7 @@ int main() {
 
     writer->write(arreglo, &salida);
     salida.close();
-*/
+
     ifstream entrada("archivoVehiculo.txt");
 
     Json::Value objeto;
@@ -82,7 +99,7 @@ int main() {
     delete v1;
     delete v2;
     delete v3;
-
+*/
 
     return 0;
 }

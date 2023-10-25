@@ -120,3 +120,12 @@ Item* Llantas::getPtrItem() {
 void Llantas::setPtrItem(Item* ptrItem) {
     this->ptrItem = ptrItem;
 }
+
+ostream &operator<<(ostream &os, const Llantas &llantas) {
+    os << "Nombre: " << llantas.nombre << endl;
+    os << "ID: " << llantas.id << endl;
+    os << "Estado: " << llantas.estado << endl;
+    os << "Traccion: " << llantas.traccion << endl;
+    os << "Precio: " << llantas.precio << endl;
+    return os;
+}

@@ -121,3 +121,12 @@ Item* Motor::getPtrItem() {
 void Motor::setPtrItem(Item* ptrItem) {
     this->ptrItem = ptrItem;
 }
+
+ostream &operator<<(ostream &os, const Motor &motor) {
+    os << "Nombre: " << motor.nombre << endl;
+    os << "ID: " << motor.id << endl;
+    os << "Estado: " << motor.estado << endl;
+    os << "Potencia: " << motor.potencia << endl;
+    os << "Precio: " << motor.precio << endl;
+    return os;
+}

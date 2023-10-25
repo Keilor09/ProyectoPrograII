@@ -54,6 +54,8 @@ class Nitro : public Tienda {
 
     void setPtrItem(Item*);
 
+    friend ostream &operator<<(ostream &os, const Nitro &nitro);
+
 };
 
 

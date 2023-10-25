@@ -65,7 +65,6 @@ public:
     string toString() {
         Nodo<tipo>* actual = raiz;
         stringstream list;
-        list << "~~~~~Lista Completa~~~~~ \n";
 
         if (listVacia())
             list << ">>No hay jugadores en list equipo \n";

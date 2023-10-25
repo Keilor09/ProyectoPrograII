@@ -4,8 +4,8 @@
 
 #include "Jugador.h"
 
-Jugador::Jugador(const string &id, const string &nombre, float dineroDisponible, Lista<Vehiculo>* vehiculosDisponibles) : id(id), nombre(nombre),
-dineroDisponible(dineroDisponible), vehiculosDisponibles(new Lista<Vehiculo>()){}
+Jugador::Jugador(const string &id, const string &nombre, int dineroDisponible, Lista<Vehiculo>* listaVehiculos) : id(id), nombre(nombre),
+dineroDisponible(dineroDisponible), vehiculosDisponibles(listaVehiculos){}
 
 Jugador::Jugador() {
     id = "";
@@ -35,11 +35,11 @@ void Jugador::setNombre(const string &nombre) {
     Jugador::nombre = nombre;
 }
 
-float Jugador::getDineroDisponible() const {
+int Jugador::getDineroDisponible() const {
     return dineroDisponible;
 }
 
-void Jugador::setDineroDisponible(float dineroDisponible) {
+void Jugador::setDineroDisponible(int dineroDisponible) {
     Jugador::dineroDisponible = dineroDisponible;
 }
 
@@ -49,4 +49,26 @@ Lista<Vehiculo>* Jugador::getVehiculosDisponibles() {
 
 void Jugador::setVehiculosDisponibles(Lista<Vehiculo>* lista) {
     this->vehiculosDisponibles = lista;
+}
+
+ostream &operator<<(ostream &os, const Jugador &jugador) {
+    os << "ID: " << jugador.id << endl;
+    os << "Nombre: " << jugador.nombre << endl;
+    os << "Dinero disponible: " << jugador.dineroDisponible << endl;
+    os << "Vehiculos obtenidos: " << endl;
+    os << endl;
+    os << jugador.vehiculosDisponibles->toString() << endl;
+    return os;
+}
+
+string Jugador::toString() {
+    stringstream s;
+    s << "ID: " << this->id << endl;
+    s << "Nombre: " << this->nombre << endl;
+    s << "Dinero disponible: " << this->dineroDisponible << endl;
+    s << "Vehiculos disponibles:" << endl;
+    s << endl;
+    s << vehiculosDisponibles->toString() << endl;
+
+    return s.str();
 }

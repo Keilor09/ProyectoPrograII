@@ -121,5 +121,13 @@ void Nitro::setPtrItem(Item* ptrItem) {
     this->ptrItem = ptrItem;
 }
 
+ostream &operator<<(ostream &os, const Nitro &nitro) {
+    os << "Nombre: " << nitro.nombre << endl;
+    os << "ID: " << nitro.id << endl;
+    os << "Estado: " << nitro.estado << endl;
+    os << "Velocidad: " << nitro.velocidad << endl;
+    os << "Precio: " << nitro.precio << endl;
+    return os;
+}
 
 

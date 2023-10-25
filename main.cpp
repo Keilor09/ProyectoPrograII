@@ -29,9 +29,9 @@ int main() {
 
     cout << *jugador1 << endl;
 
-    //listaJugadores->coloFinal(jugador1);
-    //cout << *listaJugadores;
-    //cout << v1->toString() << endl;
+    listaJugadores->coloFinal(jugador1);
+    cout << listaJugadores->toString();
+    cout << v1->toString() << endl;
 
     //v1->agregarDecorador(new Nitro(v1, true, "N1", "Nitro basico", 1000, 10));
 

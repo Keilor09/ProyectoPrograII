@@ -6,6 +6,9 @@
 #define PROYECTO_1_VEHICULO_H
 
 #include "Item.h"
+#include "Motor.h"
+#include "Llantas.h"
+#include "Nitro.h"
 #include "Lista.h"
 #include <fstream>
 #include "dist/json.h"
@@ -42,9 +45,13 @@ class Vehiculo : public Item {
 
         virtual void setPotencia(int potencia);
 
-        virtual int costo();
+        virtual bool getEstado();//Metodo Virtual puro
 
-        void agregarDecorador(Item* decorador);
+        virtual void setEstado(bool estado);
+
+        bool agregarDecorador(Item* decorador);
+
+        bool quitarDecorador(Item* decorador);
 
         Vehiculo *cargaDatos(Json::Value objeto);
 
@@ -53,6 +60,8 @@ class Vehiculo : public Item {
         string toStringVehiculo();
 
         friend ostream &operator<<(ostream &os, const Vehiculo &vehiculo);
+
+        virtual ostream& imprimir(ostream& os) const;
 
         virtual string toString();
 

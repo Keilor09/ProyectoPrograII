@@ -1,6 +1,6 @@
 CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj: \
- C:\Users\keilo\Desktop\Proyecto\dist\jsoncpp.cpp \
- C:\Users\keilo\Desktop\Proyecto\dist\json/json.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\dist\jsoncpp.cpp \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\dist\json/json.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

@@ -40,11 +40,11 @@ class Nitro : public Tienda {
 
     void setEstado(bool estado);
 
-    int costo();
+    bool agregarDecorador(Item* decorador);
+
+    bool quitarDecorador(Item* decorador);
 
     string toString(); // Metodo virtual puro;
-
-    string toStringNitro();
 
     Nitro *cargaDatos(Json::Value objeto);
 
@@ -55,6 +55,8 @@ class Nitro : public Tienda {
     void setPtrItem(Item*);
 
     friend ostream &operator<<(ostream &os, const Nitro &nitro);
+
+    virtual ostream& imprimir(ostream& os) const;
 
 };
 

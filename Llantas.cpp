@@ -61,8 +61,12 @@ void Llantas::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-int Llantas::costo() {
-    return this->ptrItem->costo() + this->precio;
+bool Llantas::agregarDecorador(Item* decorador) {
+
+}
+
+bool Llantas::quitarDecorador(Item* decorador) {
+
 }
 
 string Llantas::toString() {
@@ -71,17 +75,6 @@ string Llantas::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
-
-string Llantas::toStringLlantas() {
-    stringstream s;
-    s << "Nombre: " << this->nombre << endl;
-    s << "ID: " << this->id << endl;
-    s << "Estado: " << this->estado << endl;
-    s << "Traccion: " << this->traccion << endl;
-    s << "Precio: " << this->precio << endl;
-    return s.str();
-}
-
 
 void Llantas::setEstado(bool estado) {
     this->estado = estado;
@@ -121,11 +114,22 @@ void Llantas::setPtrItem(Item* ptrItem) {
     this->ptrItem = ptrItem;
 }
 
+ostream& Llantas::imprimir(ostream& os) const {
+    os << "Nombre: " << nombre << endl;
+    os << "ID: " << id << endl;
+    os << "Estado: " << endl;
+    if (estado) {
+        os << "Ocupado" << endl;
+    }
+    else {
+        os << "Libre" << endl;
+    }
+    os << "Traccion: " << traccion << endl;
+    os << "Precio: " << precio << endl;
+    return os;
+}
+
 ostream &operator<<(ostream &os, const Llantas &llantas) {
-    os << "Nombre: " << llantas.nombre << endl;
-    os << "ID: " << llantas.id << endl;
-    os << "Estado: " << llantas.estado << endl;
-    os << "Traccion: " << llantas.traccion << endl;
-    os << "Precio: " << llantas.precio << endl;
+    llantas.imprimir(os);
     return os;
 }

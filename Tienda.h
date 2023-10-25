@@ -14,8 +14,6 @@ class Tienda : public Item { // Clase decorator
         bool estado;
     public:
 
-        virtual int costo() = 0;
-
          virtual bool getEstado() = 0;
 
          virtual void setEstado(bool estado) = 0;
@@ -44,7 +42,14 @@ class Tienda : public Item { // Clase decorator
 
         virtual void setPotencia(int potencia) = 0; // Metodo virtual puro
 
+        virtual Item* getPtrItem() = 0;
+
+        virtual void setPtrItem(Item*) = 0;
+
         virtual string toString() = 0; // Metodo virtual puro;
+
+        virtual ostream& imprimir(ostream&) const = 0;
+
 
 };
 

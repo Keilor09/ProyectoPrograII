@@ -52,9 +52,22 @@ class Item { // Clase abstracta // Interfaz
 
         virtual void setPotencia(int potencia) = 0; // Metodo virtual puro
 
-        virtual int costo() = 0; // Metodo virtual puro
+        virtual bool getEstado() = 0;//Metodo Virtual puro
+
+        virtual void setEstado(bool estado) = 0;
+
+        virtual bool agregarDecorador(Item* decorador) = 0;
+
+        virtual bool quitarDecorador(Item* decorador) = 0;
 
         virtual string toString() = 0; // Metodo virtual puro;
+
+        virtual ostream& imprimir(ostream&) const = 0;
+
+        friend ostream &operator<<(ostream &os, const Item &item) {
+            item.imprimir(os);
+            return os;
+        }
 
 };
 

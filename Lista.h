@@ -67,12 +67,52 @@ public:
         stringstream list;
 
         if (listVacia())
-            list << ">>No hay jugadores en list equipo \n";
+            list << ">>No hay elementos en la lista \n";
         while (actual != nullptr){
             list << *actual;
             actual = actual->getSig();
         }
         return list.str();
+    }
+
+    tipo* buscarId(const string& id) {
+        Nodo<tipo>* actual = raiz;
+
+        while (actual != nullptr) {
+            if (actual->getDat()->getId() == id) {
+                return actual->getDat();
+            }
+
+            actual = actual->getSig();
+        }
+
+        return nullptr;
+    }
+
+    void eliminarNodoPorId(const string& id) {
+        // Buscamos el nodo en la lista.
+        Nodo<tipo>* actual = raiz;
+        Nodo<tipo>* anterior = nullptr;
+        while (actual != nullptr && actual->getDat()->getId() != id) {
+            anterior = actual;
+            actual = actual->getSig();
+        }
+
+        // Si el nodo no existe, devolvemos.
+        if (actual == nullptr) {
+            return;
+        }
+
+        // Si el nodo es el primero, actualizamos la raíz.
+        if (actual == raiz) {
+            raiz = actual->getSig();
+        } else {
+            // Eliminamos el nodo de la lista.
+            anterior->setSig(actual->getSig());
+        }
+
+        // Eliminamos el nodo de forma segura.
+        delete actual;
     }
 
 };

@@ -36,15 +36,13 @@ class Motor : public Tienda{
 
         void setPotencia(int potencia); // Metodo virtual puro
 
-        int costo();
+        bool agregarDecorador(Item* decorador);
 
         bool getEstado();//Metodo Virtual puro
 
         void setEstado(bool estado); //Metodo Virtual Puro
 
         string toString();
-
-        string toStringMotor();
 
         Motor *cargaDatos(Json::Value objeto);
 
@@ -55,6 +53,9 @@ class Motor : public Tienda{
         void setPtrItem(Item*);
 
         friend ostream &operator<<(ostream &os, const Motor &motor);
+
+        virtual ostream& imprimir(ostream&) const;
+
 
 };
 

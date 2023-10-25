@@ -36,11 +36,9 @@ public:
 
     void setPotencia(int potencia); // Metodo virtual puro
 
-    int costo();
+    bool agregarDecorador(Item* decorador);
 
     string toString();
-
-    string toStringLlantas();
 
     bool getEstado();//Metodo Virtual puro
 
@@ -55,6 +53,9 @@ public:
     void setPtrItem(Item*);
 
     friend ostream &operator<<(ostream &os, const Llantas &llantas);
+
+    virtual ostream& imprimir(ostream&) const;
+
 
 
 };

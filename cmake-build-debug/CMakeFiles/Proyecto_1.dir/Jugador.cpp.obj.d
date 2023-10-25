@@ -1,6 +1,6 @@
 CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj: \
- C:\Users\keilo\Desktop\Proyecto\Jugador.cpp \
- C:\Users\keilo\Desktop\Proyecto\Jugador.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Jugador.cpp \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Jugador.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -143,18 +143,18 @@ CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
- C:\Users\keilo\Desktop\Proyecto\Lista.h \
- C:\Users\keilo\Desktop\Proyecto\Nodo.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Lista.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Nodo.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
- C:\Users\keilo\Desktop\Proyecto\Vehiculo.h \
- C:\Users\keilo\Desktop\Proyecto\Item.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Vehiculo.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Item.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
- C:\Users\keilo\Desktop\Proyecto\dist/json.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\dist/json.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \
@@ -194,4 +194,8 @@ CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stack \
- C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_stack.h
+ C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_stack.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Motor.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Tienda.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Llantas.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Nitro.h

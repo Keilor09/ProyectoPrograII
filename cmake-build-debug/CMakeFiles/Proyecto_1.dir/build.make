@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2023.2\bin\cmake\win\x64\bin\cmake.exe" -
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\keilo\Desktop\Proyecto
+CMAKE_SOURCE_DIR = "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\keilo\Desktop\Proyecto\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Proyecto_1.dir/depend.make
@@ -69,102 +69,102 @@ include CMakeFiles/Proyecto_1.dir/progress.make
 include CMakeFiles/Proyecto_1.dir/flags.make
 
 CMakeFiles/Proyecto_1.dir/main.cpp.obj: CMakeFiles/Proyecto_1.dir/flags.make
-CMakeFiles/Proyecto_1.dir/main.cpp.obj: C:/Users/keilo/Desktop/Proyecto/main.cpp
+CMakeFiles/Proyecto_1.dir/main.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II\ Ciclo\ 2023/Progra\ II/Proyecto1/main.cpp
 CMakeFiles/Proyecto_1.dir/main.cpp.obj: CMakeFiles/Proyecto_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto_1.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/main.cpp.obj -MF CMakeFiles\Proyecto_1.dir\main.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\main.cpp.obj -c C:\Users\keilo\Desktop\Proyecto\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Proyecto_1.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/main.cpp.obj -MF CMakeFiles\Proyecto_1.dir\main.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\main.cpp.obj -c "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\main.cpp"
 
 CMakeFiles/Proyecto_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\keilo\Desktop\Proyecto\main.cpp > CMakeFiles\Proyecto_1.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\main.cpp" > CMakeFiles\Proyecto_1.dir\main.cpp.i
 
 CMakeFiles/Proyecto_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\keilo\Desktop\Proyecto\main.cpp -o CMakeFiles\Proyecto_1.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\main.cpp" -o CMakeFiles\Proyecto_1.dir\main.cpp.s
 
 CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj: CMakeFiles/Proyecto_1.dir/flags.make
-CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj: C:/Users/keilo/Desktop/Proyecto/Jugador.cpp
+CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II\ Ciclo\ 2023/Progra\ II/Proyecto1/Jugador.cpp
 CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj: CMakeFiles/Proyecto_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Jugador.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Jugador.cpp.obj -c C:\Users\keilo\Desktop\Proyecto\Jugador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Jugador.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Jugador.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Jugador.cpp.obj -c "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Jugador.cpp"
 
 CMakeFiles/Proyecto_1.dir/Jugador.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1.dir/Jugador.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\keilo\Desktop\Proyecto\Jugador.cpp > CMakeFiles\Proyecto_1.dir\Jugador.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Jugador.cpp" > CMakeFiles\Proyecto_1.dir\Jugador.cpp.i
 
 CMakeFiles/Proyecto_1.dir/Jugador.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1.dir/Jugador.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\keilo\Desktop\Proyecto\Jugador.cpp -o CMakeFiles\Proyecto_1.dir\Jugador.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Jugador.cpp" -o CMakeFiles\Proyecto_1.dir\Jugador.cpp.s
 
 CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj: CMakeFiles/Proyecto_1.dir/flags.make
-CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj: C:/Users/keilo/Desktop/Proyecto/Vehiculo.cpp
+CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II\ Ciclo\ 2023/Progra\ II/Proyecto1/Vehiculo.cpp
 CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj: CMakeFiles/Proyecto_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.obj -c C:\Users\keilo\Desktop\Proyecto\Vehiculo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.obj -c "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Vehiculo.cpp"
 
 CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\keilo\Desktop\Proyecto\Vehiculo.cpp > CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Vehiculo.cpp" > CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.i
 
 CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1.dir/Vehiculo.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\keilo\Desktop\Proyecto\Vehiculo.cpp -o CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Vehiculo.cpp" -o CMakeFiles\Proyecto_1.dir\Vehiculo.cpp.s
 
 CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj: CMakeFiles/Proyecto_1.dir/flags.make
-CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj: C:/Users/keilo/Desktop/Proyecto/Nitro.cpp
+CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II\ Ciclo\ 2023/Progra\ II/Proyecto1/Nitro.cpp
 CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj: CMakeFiles/Proyecto_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Nitro.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Nitro.cpp.obj -c C:\Users\keilo\Desktop\Proyecto\Nitro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Nitro.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Nitro.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Nitro.cpp.obj -c "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Nitro.cpp"
 
 CMakeFiles/Proyecto_1.dir/Nitro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1.dir/Nitro.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\keilo\Desktop\Proyecto\Nitro.cpp > CMakeFiles\Proyecto_1.dir\Nitro.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Nitro.cpp" > CMakeFiles\Proyecto_1.dir\Nitro.cpp.i
 
 CMakeFiles/Proyecto_1.dir/Nitro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1.dir/Nitro.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\keilo\Desktop\Proyecto\Nitro.cpp -o CMakeFiles\Proyecto_1.dir\Nitro.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Nitro.cpp" -o CMakeFiles\Proyecto_1.dir\Nitro.cpp.s
 
 CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj: CMakeFiles/Proyecto_1.dir/flags.make
-CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj: C:/Users/keilo/Desktop/Proyecto/Llantas.cpp
+CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II\ Ciclo\ 2023/Progra\ II/Proyecto1/Llantas.cpp
 CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj: CMakeFiles/Proyecto_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Llantas.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Llantas.cpp.obj -c C:\Users\keilo\Desktop\Proyecto\Llantas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Llantas.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Llantas.cpp.obj -c "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Llantas.cpp"
 
 CMakeFiles/Proyecto_1.dir/Llantas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1.dir/Llantas.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\keilo\Desktop\Proyecto\Llantas.cpp > CMakeFiles\Proyecto_1.dir\Llantas.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Llantas.cpp" > CMakeFiles\Proyecto_1.dir\Llantas.cpp.i
 
 CMakeFiles/Proyecto_1.dir/Llantas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1.dir/Llantas.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\keilo\Desktop\Proyecto\Llantas.cpp -o CMakeFiles\Proyecto_1.dir\Llantas.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Llantas.cpp" -o CMakeFiles\Proyecto_1.dir\Llantas.cpp.s
 
 CMakeFiles/Proyecto_1.dir/Motor.cpp.obj: CMakeFiles/Proyecto_1.dir/flags.make
-CMakeFiles/Proyecto_1.dir/Motor.cpp.obj: C:/Users/keilo/Desktop/Proyecto/Motor.cpp
+CMakeFiles/Proyecto_1.dir/Motor.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II\ Ciclo\ 2023/Progra\ II/Proyecto1/Motor.cpp
 CMakeFiles/Proyecto_1.dir/Motor.cpp.obj: CMakeFiles/Proyecto_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1.dir/Motor.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Motor.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Motor.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Motor.cpp.obj -c C:\Users\keilo\Desktop\Proyecto\Motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Proyecto_1.dir/Motor.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/Motor.cpp.obj -MF CMakeFiles\Proyecto_1.dir\Motor.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\Motor.cpp.obj -c "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Motor.cpp"
 
 CMakeFiles/Proyecto_1.dir/Motor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1.dir/Motor.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\keilo\Desktop\Proyecto\Motor.cpp > CMakeFiles\Proyecto_1.dir\Motor.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Motor.cpp" > CMakeFiles\Proyecto_1.dir\Motor.cpp.i
 
 CMakeFiles/Proyecto_1.dir/Motor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1.dir/Motor.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\keilo\Desktop\Proyecto\Motor.cpp -o CMakeFiles\Proyecto_1.dir\Motor.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\Motor.cpp" -o CMakeFiles\Proyecto_1.dir\Motor.cpp.s
 
 CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj: CMakeFiles/Proyecto_1.dir/flags.make
-CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj: C:/Users/keilo/Desktop/Proyecto/dist/jsoncpp.cpp
+CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II\ Ciclo\ 2023/Progra\ II/Proyecto1/dist/jsoncpp.cpp
 CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj: CMakeFiles/Proyecto_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj -MF CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.obj -c C:\Users\keilo\Desktop\Proyecto\dist\jsoncpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.obj -MF CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.obj.d -o CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.obj -c "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\dist\jsoncpp.cpp"
 
 CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\keilo\Desktop\Proyecto\dist\jsoncpp.cpp > CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\dist\jsoncpp.cpp" > CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.i
 
 CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Proyecto_1.dir/dist/jsoncpp.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\keilo\Desktop\Proyecto\dist\jsoncpp.cpp -o CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\dist\jsoncpp.cpp" -o CMakeFiles\Proyecto_1.dir\dist\jsoncpp.cpp.s
 
 # Object files for target Proyecto_1
 Proyecto_1_OBJECTS = \
@@ -190,7 +190,7 @@ Proyecto_1.exe: CMakeFiles/Proyecto_1.dir/build.make
 Proyecto_1.exe: CMakeFiles/Proyecto_1.dir/linkLibs.rsp
 Proyecto_1.exe: CMakeFiles/Proyecto_1.dir/objects1.rsp
 Proyecto_1.exe: CMakeFiles/Proyecto_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Proyecto_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Proyecto_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +202,6 @@ CMakeFiles/Proyecto_1.dir/clean:
 .PHONY : CMakeFiles/Proyecto_1.dir/clean
 
 CMakeFiles/Proyecto_1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\keilo\Desktop\Proyecto C:\Users\keilo\Desktop\Proyecto C:\Users\keilo\Desktop\Proyecto\cmake-build-debug C:\Users\keilo\Desktop\Proyecto\cmake-build-debug C:\Users\keilo\Desktop\Proyecto\cmake-build-debug\CMakeFiles\Proyecto_1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1" "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1" "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug" "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug" "C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II Ciclo 2023\Progra II\Proyecto1\cmake-build-debug\CMakeFiles\Proyecto_1.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Proyecto_1.dir/depend
 

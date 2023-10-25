@@ -62,24 +62,14 @@ void Nitro::setPotencia(int potencia)  {
     this->ptrItem->setPotencia(potencia);
 }
 
-int Nitro::costo() {
-    return this->ptrItem->costo() + this->precio;
+bool Nitro::agregarDecorador(Item* decorador) {
+
 }
 
 string Nitro::toString() {
     stringstream s;
     s << this->ptrItem->toString() << endl;
     s << this->nombre << ": " << this->precio << endl;
-    return s.str();
-}
-
-string Nitro::toStringNitro() {
-    stringstream s;
-    s << "Nombre: " << this->nombre << endl;
-    s << "ID: " << this->id << endl;
-    s << "Estado: " << this->estado << endl;
-    s << "Velocidad: " << this->velocidad << endl;
-    s << "Precio: " << this->precio << endl;
     return s.str();
 }
 
@@ -121,12 +111,24 @@ void Nitro::setPtrItem(Item* ptrItem) {
     this->ptrItem = ptrItem;
 }
 
+ostream& Nitro::imprimir(ostream& os) const {
+    os << "Nombre: " << nombre << endl;
+    os << "ID: " << id << endl;
+    os << "Estado: " << endl;
+    if (estado) {
+        os << "Ocupado" << endl;
+    }
+    else {
+        os << "Libre" << endl;
+    }
+    os << "Velocidad: " << velocidad << endl;
+    os << "Precio: " << precio << endl;
+    return os;
+}
+
+
 ostream &operator<<(ostream &os, const Nitro &nitro) {
-    os << "Nombre: " << nitro.nombre << endl;
-    os << "ID: " << nitro.id << endl;
-    os << "Estado: " << nitro.estado << endl;
-    os << "Velocidad: " << nitro.velocidad << endl;
-    os << "Precio: " << nitro.precio << endl;
+    nitro.imprimir(os);
     return os;
 }
 

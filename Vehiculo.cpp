@@ -66,28 +66,41 @@ void Vehiculo::setPotencia(int potencia) {
     this->potencia = potencia;
 }
 
-int Vehiculo::costo() {
-    return this->precio;
+bool Vehiculo::getEstado() {
+
 }
 
-void Vehiculo::agregarDecorador(Item* decorador) {
-    this->listaDecoradores->coloFinal(decorador);
+void Vehiculo::setEstado(bool estado) {
 
-    if (decorador->getId() == "M1" || decorador->getId() == "M2") {
-        this->setPotencia(this->getPotencia() + decorador->getPotencia());
-        this->setPrecio(this->costo() + decorador->getPrecio());
-    }
-    else {
-        if (decorador->getId() == "LL1" || decorador->getId() == "LL2" || decorador->getId() == "LL3") {
-            this->setTraccion(this->getTraccion() + decorador->getTraccion());
-            this->setPrecio(this->costo() + decorador->getPrecio());
-        }
-        else {
-            if (decorador->getId() == "N1" || decorador->getId() == "N2" || decorador->getId() == "N3") {
-                this->setVelocidad(this->getVelocidad() + decorador->getVelocidad());
-                this->setPrecio(this->costo() + decorador->getPrecio());
+}
+
+bool Vehiculo::agregarDecorador(Item* decorador) {
+    if (!decorador->getEstado()) {
+        decorador->setEstado(true);
+        listaDecoradores->coloFinal(decorador);
+        if (decorador->getId() == "M1" || decorador->getId() == "M2") {
+            Item *motor = new Motor(this, decorador->getEstado(), decorador->getId(), decorador->getNombre(),
+                                    decorador->getPotencia(), decorador->getPrecio());
+            this->setPrecio(this->precio + decorador->getPrecio());
+            this->setPotencia(this->potencia + decorador->getPotencia());
+            return true;
+        } else {
+            if (decorador->getId() == "LL1" || decorador->getId() == "LL2" || decorador->getId() == "LL3") {
+                Item *llanta = new Llantas(this, decorador->getEstado(), decorador->getId(), decorador->getNombre(),
+                                           decorador->getTraccion(), decorador->getPrecio());
+                this->setPrecio(this->precio + decorador->getPrecio());
+                this->setTraccion(this->traccion + decorador->getTraccion());
+                return true;
+            } else {
+                Item *nitro = new Nitro(this, decorador->getEstado(), decorador->getId(), decorador->getNombre(),
+                                        decorador->getPrecio(), decorador->getVelocidad());
+                this->setPrecio(this->precio + decorador->getPrecio());
+                this->setVelocidad(this->velocidad + decorador->getVelocidad());
+                return true;
             }
         }
+    } else {
+        return false;
     }
 }
 
@@ -114,26 +127,20 @@ Json::Value Vehiculo::salvaDatos(Vehiculo* vehiculo) {
     return event;
 }
 
-string Vehiculo::toStringVehiculo() {
-    stringstream s;
-    s << "Vehiculo sin mejoras" << endl;
-    s << "Vehiculo: " << this->nombre << endl;
-    s << "ID: " << this->id << endl;
-    s << "Precio: " << this->precio << endl;
-    s << "Traccion: " << this->traccion << endl;
-    s << "Velocidad: " << this->velocidad << endl;
-    s << "Potencia: " << this->potencia << endl;
-    return s.str();
+ostream& Vehiculo::imprimir(ostream& os) const{
+    os << "Vehiculo: " << nombre << endl;
+    os << "ID: " << id << endl;
+    os << "Precio: " << precio << endl;
+    os << "Traccion: " << traccion << endl;
+    os << "Velocidad: " << velocidad << endl;
+    os << "Potencia: " << potencia << endl;
+    os << "Mejoras: " << endl << endl;
+    os << listaDecoradores->toString() << endl;
+    return os;
 }
 
-
 ostream &operator<<(ostream &os, const Vehiculo &vehiculo) {
-    os << "Vehiculo: " << vehiculo.nombre << endl;
-    os << "ID: " << vehiculo.id << endl;
-    os << "Precio: " << vehiculo.precio << endl;
-    os << "Traccion: " << vehiculo.traccion << endl;
-    os << "Velocidad: " << vehiculo.velocidad << endl;
-    os << "Potencia: " << vehiculo.potencia << endl;
+    vehiculo.imprimir(os);
     return os;
 }
 
@@ -142,10 +149,11 @@ string Vehiculo::toString() {
     stringstream s;
     s << "Vehiculo: " << this->nombre << endl;
     s << "ID: " << this->id << endl;
-    s << "Precio: " << this->costo() << endl;
+    s << "Precio: " << this->precio << endl;
     s << "Traccion: " << this->traccion << endl;
     s << "Velocidad: " << this->velocidad << endl;
     s << "Potencia: " << this->potencia << endl;
+    s << listaDecoradores->toString();
     return s.str();
 }
 

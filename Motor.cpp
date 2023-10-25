@@ -62,8 +62,8 @@ void Motor::setPotencia(int potencia)  {
     this->potencia = potencia;
 }
 
-int Motor::costo() {
-    return this->ptrItem->costo() + this->precio;
+bool Motor::agregarDecorador(Item* decorador) {
+
 }
 
 string Motor::toString() {
@@ -72,17 +72,6 @@ string Motor::toString() {
     s << this->nombre << ": " << this->precio << endl;
     return s.str();
 }
-
-string Motor::toStringMotor() {
-    stringstream s;
-    s << "Nombre: " << this->nombre << endl;
-    s << "ID: " << this->id << endl;
-    s << "Estado: " << this->estado << endl;
-    s << "Potencia: " << this->potencia << endl;
-    s << "Precio: " << this->precio << endl;
-    return s.str();
-}
-
 
 void Motor::setEstado(bool estado) {
     this->estado = estado;
@@ -122,11 +111,22 @@ void Motor::setPtrItem(Item* ptrItem) {
     this->ptrItem = ptrItem;
 }
 
+ostream& Motor::imprimir(ostream& os) const {
+    os << "Nombre: " << nombre << endl;
+    os << "ID: " << id << endl;
+    os << "Estado: " << endl;
+    if (estado) {
+        os << "Ocupado" << endl;
+    }
+    else {
+        os << "Libre" << endl;
+    }
+    os << "Potencia: " << potencia << endl;
+    os << "Precio: " << precio << endl;
+    return os;
+}
+
 ostream &operator<<(ostream &os, const Motor &motor) {
-    os << "Nombre: " << motor.nombre << endl;
-    os << "ID: " << motor.id << endl;
-    os << "Estado: " << motor.estado << endl;
-    os << "Potencia: " << motor.potencia << endl;
-    os << "Precio: " << motor.precio << endl;
+    motor.imprimir(os);
     return os;
 }

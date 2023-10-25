@@ -67,12 +67,31 @@ public:
         stringstream list;
 
         if (listVacia())
-            list << ">>No hay jugadores en list equipo \n";
+            list << ">>No hay elementos en la lista \n";
         while (actual != nullptr){
             list << *actual;
             actual = actual->getSig();
         }
         return list.str();
+    }
+
+    tipo* getNodoActual () {
+        return this->actual->getDat();
+    }
+
+    tipo* buscarId(const string& id) {
+        Nodo<tipo>* actual = raiz;
+
+        while (actual != nullptr) {
+            if (actual->getDat()->getId() == id) {
+                return actual->getDat();
+            }
+
+            actual = actual->getSig();
+        }
+
+        // Si no se encuentra la película, devuelve nullptr
+        return nullptr;
     }
 
 };

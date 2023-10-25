@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/keilo/Desktop/Proyecto/cmake-build-debug"/>
+				<Option working_dir="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1">
-				<Option output="C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Proyecto_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/keilo/Desktop/Proyecto/cmake-build-debug"/>
+				<Option output="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Proyecto_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -31,17 +31,18 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Proyecto_1/fast">
-				<Option output="C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Proyecto_1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/keilo/Desktop/Proyecto/cmake-build-debug"/>
+				<Option output="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Proyecto_1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,87 +54,88 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2023.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proyecto_1/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/keilo/Desktop/Proyecto/cmake-build-debug"/>
+				<Option working_dir="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/keilo/Desktop/Proyecto/cmake-build-debug"/>
+				<Option working_dir="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/Desktop/Proyecto/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Item.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Item.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Jugador.cpp">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Jugador.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Jugador.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Jugador.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Lista.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Lista.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Llantas.cpp">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Llantas.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Llantas.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Llantas.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Motor.cpp">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Motor.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Motor.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Motor.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Nitro.cpp">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Nitro.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Nitro.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Nitro.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Nodo.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Nodo.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Tienda.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Tienda.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Vehiculo.cpp">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Vehiculo.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/Vehiculo.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/Vehiculo.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/dist/json/json.h">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/dist/json/json.h">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/dist/jsoncpp.cpp">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/dist/jsoncpp.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/main.cpp">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/main.cpp">
 			<Option target="Proyecto_1"/>
 		</Unit>
-		<Unit filename="C:/Users/keilo/Desktop/Proyecto/CMakeLists.txt">
+		<Unit filename="C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

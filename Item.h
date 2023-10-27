@@ -62,12 +62,18 @@ class Item { // Clase abstracta // Interfaz
 
         virtual string toString() = 0; // Metodo virtual puro;
 
-        virtual ostream& imprimir(ostream&) const = 0;
+        virtual ostream& imprimir(ostream&) const = 0; // Metodo virtual puro necesario para el funcionamiento de la sobrecarga << en la
+                                                       // relacion de herencia creada, se desarrollara en las subclases
 
-        friend ostream &operator<<(ostream &os, const Item &item) {
+        friend ostream &operator<<(ostream &os, const Item &item) { // Sobrecarga operador << que se aprovecha del metodo imprimir del item para mostrar la informacion en pantalla
             item.imprimir(os);
             return os;
         }
+
+        virtual Item *cargaDatos(Json::Value objeto) = 0;  //Metodo virtual puro
+
+        virtual Json::Value salvaDatos(Item* item) = 0; //Metodo virtual puro
+
 
 };
 

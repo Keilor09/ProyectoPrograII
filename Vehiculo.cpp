@@ -129,7 +129,7 @@ bool Vehiculo::quitarDecorador(Item* decorador) {
     }
 }
 
-Vehiculo * Vehiculo::cargaDatos(Json::Value objeto) {
+Item * Vehiculo::cargaDatos(Json::Value objeto) {
     string id = objeto["id"].asString();
     string nombre = objeto["nombre"].asString();
     int precio = objeto["precio"].asInt();
@@ -140,7 +140,7 @@ Vehiculo * Vehiculo::cargaDatos(Json::Value objeto) {
     return new Vehiculo(id, nombre, precio, traccion, velocidad, potencia);
 }
 
-Json::Value Vehiculo::salvaDatos(Vehiculo* vehiculo) {
+Json::Value Vehiculo::salvaDatos(Item* vehiculo) {
     Json::Value event;
     event["id"] = vehiculo->getId();
     event["nombre"] = vehiculo->getNombre();
@@ -181,6 +181,8 @@ string Vehiculo::toString() {
     s << listaDecoradores->toString();
     return s.str();
 }
+
+Vehiculo::Vehiculo() {}
 
 
 

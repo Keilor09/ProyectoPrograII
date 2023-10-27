@@ -9,34 +9,35 @@
 
 class Nitro : public Tienda {
     public:
+    Nitro();
 
     Nitro(Item* ptrItem, bool estado, string id, string nombre, int precio, int velocidad);
 
-    string getId() ; // Metodo virtual puro
+    string getId();
 
-    void setId(const string &id); // Metodo virtual puro
+    void setId(const string &id);
 
-    string getNombre() ; // Metodo virtual puro
+    string getNombre();
 
-    void setNombre(const string &nombre); // Metodo virtual puro
+    void setNombre(const string &nombre);
 
-    int getPrecio() ; // Metodo virtual puro
+    int getPrecio();
 
-    void setPrecio(int precio); // Metodo virtual puro
+    void setPrecio(int precio);
 
-    int getTraccion() ; // Metodo virtual puro
+    int getTraccion();
 
-    void setTraccion(int traccion); // Metodo virtual puro
+    void setTraccion(int traccion);
 
-    int getVelocidad() ; // Metodo virtual puro
+    int getVelocidad();
 
-    void setVelocidad(int velocidad); // Metodo virtual puro
+    void setVelocidad(int velocidad);
 
-    int getPotencia(); // Metodo virtual puro
+    int getPotencia();
 
-    void setPotencia(int potencia); // Metodo virtual puro
+    void setPotencia(int potencia);
 
-    bool getEstado();//Metodo Virtual puro
+    bool getEstado();
 
     void setEstado(bool estado);
 
@@ -44,11 +45,11 @@ class Nitro : public Tienda {
 
     bool quitarDecorador(Item* decorador);
 
-    string toString(); // Metodo virtual puro;
+    string toString();
 
-    Nitro *cargaDatos(Json::Value objeto);
+    Item *cargaDatos(Json::Value objeto);
 
-    Json::Value salvaDatos(Nitro* nitro);
+    Json::Value salvaDatos(Item* nitro);
 
     Item* getPtrItem();
 

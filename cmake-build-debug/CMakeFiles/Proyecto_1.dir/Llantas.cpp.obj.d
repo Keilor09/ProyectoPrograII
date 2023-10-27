@@ -1,8 +1,8 @@
 CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj: \
- C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Llantas.cpp \
- C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Llantas.h \
- C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Tienda.h \
- C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\Item.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\ProyectoPrograII\Llantas.cpp \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\ProyectoPrograII\Llantas.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\ProyectoPrograII\Tienda.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\ProyectoPrograII\Item.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -152,7 +152,7 @@ CMakeFiles/Proyecto_1.dir/Llantas.cpp.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
- C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\Proyecto1\dist/json.h \
+ C:\Users\keilo\OneDrive\Desktop\Universidad\UNA\II\ Ciclo\ 2023\Progra\ II\ProyectoPrograII\dist/json.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstring \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/x86_64-w64-mingw32/include/string.h \
  C:/Program\ Files/JetBrains/CLion\ 2023.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/string_s.h \

@@ -17,6 +17,8 @@ class Vehiculo : public Item {
     private:
         Lista<Item>* listaDecoradores;
     public:
+        Vehiculo();
+
         Vehiculo(string id, string nombre, int precio, int traccion, int velocidad, int potencia);
 
         virtual ~Vehiculo();
@@ -53,11 +55,9 @@ class Vehiculo : public Item {
 
         bool quitarDecorador(Item* decorador);
 
-        Vehiculo *cargaDatos(Json::Value objeto);
+        Item *cargaDatos(Json::Value objeto);
 
-        Json::Value salvaDatos(Vehiculo* vehiculo);
-
-        string toStringVehiculo();
+        Json::Value salvaDatos(Item* vehiculo);
 
         friend ostream &operator<<(ostream &os, const Vehiculo &vehiculo);
 

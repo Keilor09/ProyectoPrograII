@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1
+# Install script for directory: C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/ProyectoPrograII
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/Proyecto1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/keilo/OneDrive/Desktop/Universidad/UNA/II Ciclo 2023/Progra II/ProyectoPrograII/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -115,6 +115,22 @@ public:
         delete actual;
     }
 
+    int contarNodos() {
+        int contador = 0;
+        Nodo<tipo>* actual = raiz;
+
+        while (actual != nullptr) {
+            contador++;
+            actual = actual->getSig();
+        }
+
+        return contador;
+    }
+
+    tipo* getNodoActual() {
+        return this->actual;
+    }
+
 };
 
 

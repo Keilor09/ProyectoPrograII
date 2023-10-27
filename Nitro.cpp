@@ -85,7 +85,7 @@ bool Nitro::getEstado() {
     return estado;
 }
 
-Nitro* Nitro::cargaDatos(Json::Value objeto) {
+Item* Nitro::cargaDatos(Json::Value objeto) {
     bool estado = objeto["estado"].asBool();
     string nombre = objeto["nombre"].asString();
     string id = objeto["id"].asString();
@@ -96,7 +96,7 @@ Nitro* Nitro::cargaDatos(Json::Value objeto) {
     return new Nitro(ptrItem, estado, id, nombre, precio, velocidad);
 }
 
-Json::Value Nitro::salvaDatos(Nitro* nitro) {
+Json::Value Nitro::salvaDatos(Item* nitro) {
     Json::Value event;
     event["estado"] = nitro->getEstado();
     event["nombre"] = nitro->getNombre();
@@ -134,6 +134,10 @@ ostream& Nitro::imprimir(ostream& os) const {
 ostream &operator<<(ostream &os, const Nitro &nitro) {
     nitro.imprimir(os);
     return os;
+}
+
+Nitro::Nitro() {
+
 }
 
 

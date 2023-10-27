@@ -1,13 +1,13 @@
 [
   {
-    "estado" : true,
+    "estado" : false,
     "id" : "M1",
     "nombre" : "motor intermedio",
     "potencia" : 25,
     "precio" : 1700
   },
   {
-    "estado" : true,
+    "estado" : false,
     "id" : "M2",
     "nombre" : "motor alto rendimiento",
     "potencia" : 50,

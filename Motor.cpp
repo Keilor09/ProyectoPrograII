@@ -85,7 +85,7 @@ bool Motor::getEstado() {
     return estado;
 }
 
-Motor* Motor::cargaDatos(Json::Value objeto) {
+Item* Motor::cargaDatos(Json::Value objeto) {
     bool estado = objeto["estado"].asBool();
     string nombre = objeto["nombre"].asString();
     string id = objeto["id"].asString();
@@ -96,7 +96,7 @@ Motor* Motor::cargaDatos(Json::Value objeto) {
     return new Motor(ptrItem, estado, id, nombre, potencia, precio);
 }
 
-Json::Value Motor::salvaDatos(Motor* motor) {
+Json::Value Motor::salvaDatos(Item* motor) {
     Json::Value event;
     event["estado"] = motor->getEstado();
     event["nombre"] = motor->getNombre();
@@ -134,3 +134,5 @@ ostream &operator<<(ostream &os, const Motor &motor) {
     motor.imprimir(os);
     return os;
 }
+
+Motor::Motor() {}

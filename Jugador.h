@@ -15,9 +15,9 @@ class Jugador {
         string id;
         string nombre;
         int dineroDisponible;
-        Lista<Vehiculo>* vehiculosDisponibles;
+        Lista<Item>* vehiculosDisponibles;
     public:
-        Jugador(const string &id, const string &nombre, int dineroDisponible, Lista<Vehiculo>* listaVehiculos);
+        Jugador(const string &id, const string &nombre, int dineroDisponible, Lista<Item>* listaVehiculos);
 
         Jugador();
 
@@ -35,17 +35,13 @@ class Jugador {
 
         void setDineroDisponible(int dineroDisponible);
 
-        Lista<Vehiculo>* getVehiculosDisponibles();
+        Lista<Item>* getVehiculosDisponibles();
 
-        void setVehiculosDisponibles(Lista<Vehiculo>*);
+        void setVehiculosDisponibles(Lista<Item>*);
 
         friend ostream &operator<<(ostream &os, const Jugador &jugador);
 
         string toString();
-
-        Jugador *cargaDatos(Json::Value objeto);
-
-        Json::Value salvaDatos(Jugador* jugador);
 
 };
 

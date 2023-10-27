@@ -84,7 +84,7 @@ bool Llantas::getEstado() {
     return estado;
 }
 
-Llantas* Llantas::cargaDatos(Json::Value objeto) {
+Item* Llantas::cargaDatos(Json::Value objeto) {
     bool estado = objeto["estado"].asBool();
     string nombre = objeto["nombre"].asString();
     string id = objeto["id"].asString();
@@ -95,7 +95,7 @@ Llantas* Llantas::cargaDatos(Json::Value objeto) {
     return new Llantas(ptrItem, estado, id, nombre, traccion, precio);
 }
 
-Json::Value Llantas::salvaDatos(Llantas* llantas) {
+Json::Value Llantas::salvaDatos(Item* llantas) {
     Json::Value event;
     event["estado"] = llantas->getEstado();
     event["nombre"] = llantas->getNombre();
@@ -133,3 +133,5 @@ ostream &operator<<(ostream &os, const Llantas &llantas) {
     llantas.imprimir(os);
     return os;
 }
+
+Llantas::Llantas() {}

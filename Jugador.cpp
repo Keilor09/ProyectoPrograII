@@ -4,7 +4,7 @@
 
 #include "Jugador.h"
 
-Jugador::Jugador(const string &id, const string &nombre, int dineroDisponible, Lista<Vehiculo>* listaVehiculos) : id(id), nombre(nombre),
+Jugador::Jugador(const string &id, const string &nombre, int dineroDisponible, Lista<Item>* listaVehiculos) : id(id), nombre(nombre),
 dineroDisponible(dineroDisponible), vehiculosDisponibles(listaVehiculos){}
 
 Jugador::Jugador() {
@@ -43,11 +43,11 @@ void Jugador::setDineroDisponible(int dineroDisponible) {
     Jugador::dineroDisponible = dineroDisponible;
 }
 
-Lista<Vehiculo>* Jugador::getVehiculosDisponibles() {
+Lista<Item>* Jugador::getVehiculosDisponibles() {
     return this->vehiculosDisponibles;
 }
 
-void Jugador::setVehiculosDisponibles(Lista<Vehiculo>* lista) {
+void Jugador::setVehiculosDisponibles(Lista<Item>* lista) {
     this->vehiculosDisponibles = lista;
 }
 
@@ -72,3 +72,5 @@ string Jugador::toString() {
 
     return s.str();
 }
+
+
